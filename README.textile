@@ -1,0 +1,21 @@
+h1. Vigenère Cipher
+
+encode/decode any string using the Vigenère Cipher method.
+
+h3. Instalation
+
+pre. gem install vigenere
+ 
+h3.  Usage
+
+bc.. require 'vigenere'
+
+Vigenere.encode('AAA', 'CAESAR') #=> "CAESAR"
+Vigenere.encode('BIO', 'CAESAR') #=> "DISTIF"
+
+Vigenere.decode('AAA', 'CAESAR') #=> "CAESAR"
+Vigenere.decode('BIO', 'DISTIF') #=> "CAESAR"
+
+h3. Authors
+
+Roberto Decurnex ("nex.development@gmail.com":malto:nex.development@gmail.com)
