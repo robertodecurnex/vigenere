@@ -6,28 +6,53 @@
   <title>robertodecurnex/vigenere @ GitHub</title>
 
   <style type="text/css">
+    @font-face {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Josefin Sans'), local('JosefinSans'), url('http://themes.googleusercontent.com/font?kit=xgzbb53t8j-Mo-vYa23n5onF5uFdDttMLvmWuJdhhgs') format('truetype');
+    }
     body {
       margin-top: 1.0em;
-      background-color: #6301c1;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #ffffff;
+      background-color: #00313c;
+      font-family: 'Josefin Sans', serif; color: #979797;
     }
     #container {
       margin: 0 auto;
       width: 700px;
     }
-    h1 { font-size: 3.8em; color: #9cfe3e; margin-bottom: 3px; }
+    h1 { font-size: 3.0em; color: #fffda8; margin-bottom: 3px; }
     h1 .small { font-size: 0.4em; }
     h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #9cfe3e; }
-    h3 { text-align: center; color: #9cfe3e; }
-    a { color: #9cfe3e; }
+    h2 { font-size: 1.5em; color: #fffda8; }
+    h3 {  color: #fffda8; }
+    a { color: #fffda8; }
     .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
     pre { background: #000; color: #fff; padding: 15px;}
     hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
     .footer { text-align:center; padding-top:30px; font-style: italic; }
   </style>
+
+  <script type="text/javascript" src="http://github.com/robertodecurnex/kCode/raw/master/kCode.min.js"></script>
+  <script type="text/javascript">
+    window.onload = function(){
+      kCode.listen(
+        function(){
+          alert("CATS: ALL YOUR BASE ARE BELONG TO US.");
+        }
+      );
+    }
+  </script> 
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6908348-2']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </head>
 
 <body>
@@ -35,27 +60,21 @@
 
   <div id="container">
 
-    <div class="download">
-      <a href="http://github.com/robertodecurnex/vigenere/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/robertodecurnex/vigenere/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
 
-    <h1><a href="http://github.com/robertodecurnex/vigenere">vigenere</a>
-      <span class="small">by <a href="http://github.com/robertodecurnex">robertodecurnex</a></span></h1>
+    <h1><a href="http://github.com/robertodecurnex/vigenere">vigenere</a></h1>
 
     <div class="description">
       Simple Vigenère Cipher ruby implementation
     </div>
 
     <h2>Dependencies</h2>
-<p>caesar >= 0.3</p>
-<h2>Install</h2>
-<p>gem install vigenere</p>
-<h2>Authors</h2>
-<p>robertodecurnex (nex.development@gmail.com)<br/><br/>      </p>
+    <p>caesar >= 0.3</p>
 
+    <h2>Install</h2>
+    <p>gem install vigenere</p>
+
+    <h2>Authors</h2>
+    <p>Roberto Decurnex (nex.development@gmail.com)<br/><br/></p>
 
     <h2>Download</h2>
     <p>
