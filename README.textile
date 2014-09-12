@@ -18,4 +18,4 @@ Vigenere.decode('BIO', 'DISTIF') #=> "CAESAR"
 
 h3. Authors
 
-Roberto Decurnex ("nex.development@gmail.com":malto:nex.development@gmail.com)
+Roberto Decurnex ("decurnex.roberto@gmail.com":malto:decurnex.roberto@gmail.com)
